@@ -14,7 +14,7 @@ import edu.br.utfpr.processo.*;
 
 public class SalvarJson {
 	
-	 private  File diretorio = new File("/home/melissa/dados_linkedin/sirnande");
+	 private  File diretorio = new File(System.getProperty("user.home") +"/dados_linkedin/sirnande");
 	 
 	 private  File arquivo = new File(diretorio, "linkedin.json");
 	 private  FileReader leitor;
